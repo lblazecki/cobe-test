@@ -1,0 +1,19 @@
+<form class="pure-form pure-form-aligned">
+    <fieldset>
+        <div class="pure-control-group">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" placeholder="Email Address" ng-model="user.email" required>
+        </div>
+        <div class="pure-control-group">
+            <label for="username">Username</label>
+            <input id="username" type="text" placeholder="Username" ng-model="user.username">
+        </div>
+        <div class="pure-control-group">
+            <label for="birthday">Birthday</label>
+            <input id="birthday" type="date" placeholder="Birthday" ng-model="user.birthday" required>
+        </div>
+        <div class="pure-controls">
+            <button type="submit" class="pure-button pure-button-primary" ng-click="update(user)">Save</button>
+        </div>
+    </fieldset>
+</form>

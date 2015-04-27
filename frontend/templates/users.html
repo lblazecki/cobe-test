@@ -1,0 +1,23 @@
+<div id="button-container-add-new-whole">
+    <a class="pure-button create-new-button" ui-sref="users.create">Create new user</a>
+</div>
+
+<div class="pure-g">
+    <div class="pure-u-3-5 pure-u-md-2-5 users-list-container">
+        <div class="pure-menu pure-menu-scrollable users-list">
+            <span class="pure-menu-heading">Users list</span>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"
+                    ng-repeat="user in users">
+                    <a class="users-user pure-menu-link"
+                       ui-sref="users.user({userId : {{user.id}}})">
+                        {{user.email}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="pure-u-2-5 pure-u-md-3-5">
+        <div ui-view></div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+{
+  "name": "cobeUsers",
+  "version": "0.0.0",
+  "authors": [
+    "blaz <blazecki@gmail.com>"
+  ],
+  "description": "test Cobe application for displaying users",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.14",
+    "requirejs": "latest",
+    "requirejs-domready": "latest",
+    "bluebird": "~2.9.24"
+  }
+}

@@ -1,0 +1,30 @@
+.home-container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.users-list-container {
+    text-align: center;
+}
+
+.users-list {
+    border: 1px solid gray;
+    border-radius: 4px;
+    overflow-y:hidden;
+    display: inline-block;
+}
+
+#button-container-add-new-whole{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.add-new-form p{
+    display: inline-block;
+}
+
+.user-info p {
+    margin : 0;
+}
